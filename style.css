@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI';
+}
+
+.home{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.home img{
+    width: 100%;
+    height: 100vh;
+}
+
+.home .hometxt{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.home .hometxt h1{
+    font-size: 60px;
+}
+
+.home .hometxt{
+    font-size: 60px;
+}
+
+.home .hometxt .navbar{
+    overflow: hidden;
+}
+
+.home .hometxt .navbar li{
+    float: right;
+    font-size: 17px;
+    list-style: none;
+    padding: 20px;
+    padding-top: 45px;
+    font-weight: 500;
+    padding-bottom: 150px;
+}
+
+.home .hometxt .homelogo{
+    float: left;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.home .hometxt .fa{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 14px;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.first{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    /* background-color: royalblue; */
+    overflow: hidden;
+    
+}
+.first .firstimg{
+    width: 40%;
+    /* background-color: sienna; */
+}
+
+.first .firstimg img{
+    width: 80%;
+    height: 75%;
+    margin-left: 60px;
+}
+
+.first .firsttxt{
+    width: 60%;
+    /* background-color: springgreen; */
+    float: right;
+    padding-left: 15px;
+    padding-right: 70px;
+}
+
+.first .firsttxt h2{
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-size: 32px;
+}
+.first .firsttxt .UI{
+    padding-bottom: 30px;
+}
+
+.first .firsttxt p{
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.first .firsttxt progress{
+    height: 40px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.first .firsttxt button{
+    margin-top: 40px;
+    padding: 10px 22px;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border: black solid 1px;
+    font-size: 14px;
+    transition: 0.5s color, 0.5s background-color;
+}
+.first .firsttxt .diff{
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+    font-size: 14px;
+}
+
+.first .firsttxt button:hover{
+    color: black;
+    background-color: white;
+
+}
+
+.first .firsttxt .diff:hover{
+    color: white;
+    background-color: black;
+}
+
+.second{
+    width: 100%;
+    background-color:rgb(236, 236, 236);
+    padding-top: 50px;
+}
+
+.second .secondtxt{
+    height: 10%;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.second .secondcontainers{
+    margin-bottom: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.second .secondcontainers div{
+    background-color: white;
+    float: left;
+    padding: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 29%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.second .secondcontainers div i{
+    background-color: teal;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: 0.5s background-color, 0.5s color;
+}
+.second .secondcontainers div h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.second .secondcontainers div:hover i{
+    background-color: black;
+    color: f4f4f4;
+}
+
+.second .secondcontainers .change{
+    margin-top: 0px;
+}
+
+
+.works{
+    /* background-color: tomato; */
+    padding-top: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+.works .Portfolio{
+    /* background-color: turquoise; */
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.works .list{
+    /* background-color: violet; */
+    overflow: hidden;
+}
+.works .list ul li{
+    float: left;
+    list-style: none;
+    padding: 35px;
+    text-align: center;
+}
+.works .list ul .all{
+    padding-left: 535px;
+}
+
+.works .images{
+    /* background-color: yellow; */
+    overflow: hidden;
+    width: 75%;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.works .images .parent{
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.works .images .parent .child{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 80px;
+    padding-left: 130px;
+    padding-right: 90px;
+    padding-top: 95;
+    background-color: white;
+    opacity: 0;
+    transition: 1s all;
+}
+.works .images .parent .child h6{
+    padding: 10px;
+    padding-left: 0px;
+    transition: 1s all;
+    color: black;
+}
+.works .images .parent .child i{
+    padding: 7.5px;
+    padding-left: 6px;
+    transition: 1s all;
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    color: white;
+}
+
+.works .images .parent .child:hover{
+    opacity: 1;
+}
+.works .images .parent .child:hover h6{
+    transform: translateY(5px);
+}
+.works .images .parent .child:hover i{
+    transform: translateY(-5px);
+}
+
+.works .images img{
+    width: 100%;
+}
+.works .images .parent .child i:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 7.5px;
+    padding-left: 6px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Testimonials{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    padding: 60px 120px;
+}
+
+.Testimonials h1{
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.Testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.icons{
+    overflow: hidden;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.icons .icon{
+    float: left;
+    padding: 30px;
+    margin: 30px;
+}
+
+.blog{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.blog .blogtxt{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.blog .images{
+    width: 100%;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.blog .images .image{
+    width: 33.3%;
+    overflow: hidden;
+    float: left;
+    padding: 30px;
+}
+.blog .images .image div{
+    overflow: hidden;
+}
+
+.blog .images .image div img{
+    width: 100%;
+    transition: 1s transform;
+
+}
+
+.blog .images .image div img:hover{
+    transform: scale(1.2);
+}
+
+.blog .images .image h6{
+    padding-top: 15px;
+}
